@@ -2,7 +2,7 @@ class Solution:
     def longestCommonPrefix(self, strs):
         if not strs:
             return "" 
-
+        # Find the shortest string in the list
         shortest = min(strs, key=len)
 
         for i, char in enumerate(shortest):
