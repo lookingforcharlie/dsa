@@ -8,7 +8,7 @@ class Solution:
 
 
 
-# my way to solve the problem
+# My way to solve the problem
         numsSet = set(nums)
         highest_count = 0
         for num in nums:
