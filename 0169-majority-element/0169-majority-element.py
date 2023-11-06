@@ -16,15 +16,8 @@ class Solution:
             
         
         
-        
-        
-        
-        
-        
-        
-   
-        
-        
+# My initial approach
+
 # n = len(nums)
 # return value will be the integer that appears more than n/2  
 
