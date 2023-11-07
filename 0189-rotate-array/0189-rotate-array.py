@@ -8,6 +8,8 @@ class Solution:
         
         last_index = len(nums) - 1 
         nums.reverse()
+        
+        # Create a helper function to reverse the different part inside the list
         def helper(nums, start, end): 
             while start <= end: 
                 temp_start = nums[start]
