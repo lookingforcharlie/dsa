@@ -22,14 +22,9 @@ class Solution:
         # reverse range: k, last_index 
         helper(nums, k, last_index)
         
+      
         
-        
-        
-        
-        
-        
-        
-# My initial way, use a for loop inside a while loop
+# My initial way, use a for loop inside a while loop, didn't pass the last case cos it takes too long
 #         while k != 0: 
 #             index_last_item = len(nums) - 1 
 #             first = nums[index_last_item]
