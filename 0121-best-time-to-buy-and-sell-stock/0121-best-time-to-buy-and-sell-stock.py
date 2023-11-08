@@ -1,6 +1,7 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 # One linear lop: O(n)
+# Introduced buy_price, cos the face is that you always want buy lowest 
         buy_price = prices[0]
         current_profit = 0
         max_profit = 0
