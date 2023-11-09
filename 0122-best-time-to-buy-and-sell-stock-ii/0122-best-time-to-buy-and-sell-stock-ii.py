@@ -8,5 +8,6 @@ class Solution:
         
 # make buy and sell as many as possible 
 # If the next item is greater than the previous item, make buy and sell
+# Draw a picture of stock market price/day helps understand the problem
         
     
