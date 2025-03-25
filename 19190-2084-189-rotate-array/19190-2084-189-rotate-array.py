@@ -10,7 +10,7 @@ class Solution:
         #     k -= 1
 
         # method two: 
-        
+        # Technically k can be any number which is bigger than the length of the nums, meaning it's repeating the rotation
         k = k % len(nums)
 
         nums.reverse() 
