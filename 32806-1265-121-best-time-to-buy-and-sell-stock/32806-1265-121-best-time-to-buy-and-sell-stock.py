@@ -13,3 +13,5 @@ class Solution:
                 max_profit = prices[i] - min_price
 
         return max_profit
+
+        # I also used brutal force by using inner loop which is O(n ** 2)
